@@ -2,10 +2,10 @@ var Todo = require('../models/Todo')
 
 //create a todo
 exports.create_todo = function(req,res,error){
-
+    console.log(req.body.title)
      var new_todo = new Todo({
         title: req.body.title,
-        description: req.body.description,
+        discription: req.body.discription,
         done:req.body.status
      })
 
@@ -54,7 +54,7 @@ exports.update_todo = function(req,res,error){
     Todo.findById(req.params.id, function(todo){
 
         todo.title = req.body.title;
-        todo.description = req.body.description;
+        todo.discription = req.body.discription;
         todo.done = req.body.status;
     }).save(function(){
         res.send({
