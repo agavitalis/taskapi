@@ -3,34 +3,34 @@
 ## About Task-API
 Task api is a simple task management system to help manage your todos
 
-Preview the desktop demo at :https://task-api.herokuapp.com
+Preview the desktop demo at :https://taskapi-v.herokuapp.com
 
-- [Simple, fast and slick](https://task-api.herokuapp.com).
-- [Effiecient and  Transparent](https://task-api.herokuapp.com).
+- [Simple, fast and slick](https://taskapi-v.herokuapp.com).
+- [Effiecient and  Transparent](https://taskapi-v.herokuapp.com).
 
 ## How to use this app
 To use this application, simple consume the following endpoints:
 
-- [Create a Task] (https://task-api.herokuapp.com/api/create_todo)
+- [Create a Task] (https://taskapi-v.herokuapp.com/api/create_todo)
 Send a post request to the above endpoint with the following parameters:
 --- title : a string
 --- description : a string
 --- status: a boolean
 
-- [View Tasks] (https://task-api.herokuapp.com/api/read_todos)
+- [View Tasks] (https://taskapi-v.herokuapp.com/api/read_todos)
 Send a get request to the above endpoint to get a list of all the todos
 
-- [View a Task] (https://task-api.herokuapp.com/api/read_todo/{id})
+- [View a Task] (https://taskapi-v.herokuapp.com/api/read_todo/{id})
 Send a get request to the above endpoint, where "id" is the id of the task to get
 
-- [Edit a Task] (https://task-api.herokuapp.com/api/update_todo/{id})
+- [Edit a Task] (https://taskapi-v.herokuapp.com/api/update_todo/{id})
 Send a post request to the above endpoint with the following parameters:
 --- title : a string
 --- description : a string
 --- status: a boolean
 Where "id" is the id of the task to update
 
-- [Delete a Task] (https://task-api.herokuapp.com/api/delete_todo/{id})
+- [Delete a Task] (https://taskapi-v.herokuapp.com/api/delete_todo/{id})
 Send a get request to the above endpoint, where "id" is the id of the task to delete
 
 ## Security Vulnerabilities
