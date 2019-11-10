@@ -5,7 +5,7 @@ var mongoose = require('mongoose')
 
 //before going live, uncomment this connection
 mongoose.connect('mongodb://vitalis:vitalis123@ds263307.mlab.com:63307/taskapi-v', {
-    useNewUrlParser: true
+    useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true
 });
 
 //check if the connection was successful
